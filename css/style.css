@@ -1,6 +1,32 @@
 h1{
     text-align: center;
 }
-footer{
-    text-align: center;
+body {
+  font-family: Arial, sans-serif;
+  background-color: #9e9b9b;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 50px;
+}
+.container {
+    background-color: white;
+    border-radius: 12px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+select {
+  width: 100%;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 0.9rem;
+  color: #000000;
 }
