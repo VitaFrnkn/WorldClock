@@ -32,7 +32,8 @@ select {
 }
 
 footer {
-  text-align: center;
-  font-family: sans-serif;
+    margin: 600px;
+    text-align: center;
+    font-family: sans-serif;
   
 }
