@@ -23,6 +23,7 @@ footer {
 }
 .city {
     display: flex;
+    justify-content: space-between;
 }
 .time{
     font-size:36px;
