@@ -21,6 +21,8 @@ body {
 .time{
     font-size:36px;
     font-weight: bold;
+    text-align: right;
+    padding: 5px;
 }
 .time small{
     font-size: 18px;
