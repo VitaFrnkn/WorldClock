@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: sans-serif;
   background-color: #9e9b9b;
   display: flex;
   flex-direction:column;
@@ -22,20 +22,24 @@ footer {
   
 }
 .city {
+    font-size: 30;
     display: flex;
     justify-content: space-between;
 }
 .time{
-    font-size:36px;
+    font-size:48px;
     font-weight: bold;
     text-align: right;
     padding: 5px;
 }
 .time small{
-    font-size: 18px;
+    font-size: 20px;
     vertical-align: middle;
     line-height: 36px;
 
+}
+.date{
+    opacity: 0.7;
 }
 select {
     display:block;
