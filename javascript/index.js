@@ -19,6 +19,16 @@ function updateTime(){
         RomeDateElement.innerHTML = RomeTime.format("MMMM Do YYYY");
         RomeTimeElement.innerHTML = RomeTime.format("h:mm:ss [<small>]A[</small>]");
     }
+// Tokyo time update
+    let TokyoElement = document.querySelector("#tokyo");
+    if (TokyoElement){
+        let TokyoDateElement = TokyoElement.querySelector(".date");
+        let TokyoTimeElement = TokyoElement.querySelector(".time");
+        let TokyoTime = moment().tz("Asia/Tokyo");
+
+        TokyoDateElement.innerHTML = TokyoTime.format("MMMM Do YYYY");
+        TokyoTimeElement.innerHTML = TokyoTime.format("h:mm:ss [<small>]A[</small>]");
+    }
 }
 
 function updateCity(event) {
