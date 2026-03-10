@@ -18,3 +18,5 @@ function updateTime(){
     RomeTimeElement.innerHTML = RomeTime.format("h:mm:ss [<small>]A[</small>]");
 
 }
+
+updateTime();
