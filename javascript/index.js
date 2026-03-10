@@ -1,7 +1,7 @@
 function updateTime(){
 //Los Angeles time update
     let losAngelesElement = document.querySelector("#los-angeles");
-    if (losAngelesElement.length){
+    if (losAngelesElement){
         let losAngelesDateElement = losAngelesElement.querySelector(".date");
         let losAngelesTimeElement = losAngelesElement.querySelector(".time");
         let losAngelesTime = moment().tz("America/Los_Angeles");
@@ -11,7 +11,7 @@ function updateTime(){
     }
 // Rome time update
     let RomeElement = document.querySelector("#rome");
-    if (RomeElement.length){
+    if (RomeElement){
         let RomeDateElement = RomeElement.querySelector(".date");
         let RomeTimeElement = RomeElement.querySelector(".time");
         let RomeTime = moment().tz("Europe/Rome");
